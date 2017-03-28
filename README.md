@@ -31,7 +31,8 @@ For more information about non-maximum suppression, refer to this blog: http://w
 Note: All CNN parameters are shared across all categories, however, less flexible. (Why can we share all the parameters?)
 
 ### Training
-
+1) Supervised pre-training. 
+2) Domain-specific fine-tuning. -> SGD training of the CNN parameters using only warped region proposals.
 
 
 
